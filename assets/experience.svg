@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1000 370" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Experience — Saipos, Unisinos, Rocketseat and practical projects">
+  <style>
+    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(8px); } to { opacity:1;transform:translateY(0); } }
+    .a1{animation-delay:.15s} .a2{animation-delay:.35s} .a3{animation-delay:.55s} .a4{animation-delay:.75s}
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+      :root { --bone: #000000; --muted: #000000; --dim: #000000; --rule: #000000; --accent: #000000; --node-bg: #FFFFFF; --core-bg: #FFFFFF; --ghost: #000000; }
+  </style>
+
+  <line x1="120" y1="10" x2="120" y2="360" stroke="var(--rule)" stroke-width="1" opacity=".4"/>
+
+  <g class="rise a1">
+    <text class="mono" x="48" y="42"  font-size="12" fill="var(--accent)" letter-spacing="2">2025–NOW</text>
+    <text class="mono" x="136" y="42"  font-size="15" fill="var(--bone)">Saipos · Developer &amp; Automation · São Leopoldo, RS</text>
+    <text class="mono" x="136" y="68"  font-size="14" fill="var(--muted)">desenvolvimento de sistemas, aplicações internas, integrações e automações</text>
+    <text class="mono" x="136" y="90"  font-size="14" fill="var(--muted)">APIs · n8n · Google Workspace · aplicações web · observabilidade</text>
+  </g>
+
+  <g class="rise a2">
+    <text class="mono" x="48" y="138" font-size="12" fill="var(--accent)" letter-spacing="2">CURRENT</text>
+    <text class="mono" x="136" y="138" font-size="15" fill="var(--bone)">Unisinos · Análise e Desenvolvimento de Sistemas</text>
+    <text class="mono" x="136" y="164" font-size="14" fill="var(--muted)">formação acadêmica em desenvolvimento de software e análise de sistemas</text>
+    <text class="mono" x="136" y="186" font-size="14" fill="var(--muted)">aprendizado complementado por projetos práticos e estudo contínuo</text>
+  </g>
+
+  <g class="rise a3">
+    <text class="mono" x="48" y="234" font-size="12" fill="var(--accent)" letter-spacing="2">STUDIES</text>
+    <text class="mono" x="136" y="234" font-size="15" fill="var(--bone)">Rocketseat · Full Stack (parcial) + cursos complementares</text>
+    <text class="mono" x="136" y="260" font-size="14" fill="var(--muted)">conteúdos de front-end, back-end, APIs, arquitetura e desenvolvimento web</text>
+    <text class="mono" x="136" y="282" font-size="14" fill="var(--muted)">estudo contínuo em automação, integrações e novas tecnologias</text>
+  </g>
+
+  <g class="rise a4">
+    <text class="mono" x="48" y="330" font-size="12" fill="var(--accent)" letter-spacing="2">PROJECTS</text>
+    <text class="mono" x="136" y="330" font-size="15" fill="var(--bone)">GitHub · projetos pessoais · Full-Stack &amp; Automation</text>
+    <text class="mono" x="136" y="356" font-size="14" fill="var(--muted)">construindo soluções reais para aprender, testar e evoluir a prática</text>
+  </g>
+</svg>
